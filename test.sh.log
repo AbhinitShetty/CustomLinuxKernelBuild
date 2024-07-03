@@ -1,0 +1,312 @@
+Running test with user shetty
+-- Generating ;/home/shetty/Desktop/Linux_Coursera/Git_Assignment1/assignment-3-AbhinitShetty/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/shetty/Desktop/Linux_Coursera/Git_Assignment1/assignment-3-AbhinitShetty/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/shetty/Desktop/Linux_Coursera/Git_Assignment1/assignment-3-AbhinitShetty/assignment-autotest/test/assignment3/Test_systemcalls_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;test/assignment3/Test_systemcalls.c
+-- Building executable including ;/home/shetty/Desktop/Linux_Coursera/Git_Assignment1/assignment-3-AbhinitShetty/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/shetty/Desktop/Linux_Coursera/Git_Assignment1/assignment-3-AbhinitShetty/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/shetty/Desktop/Linux_Coursera/Git_Assignment1/assignment-3-AbhinitShetty/assignment-autotest/test/assignment3/Test_systemcalls_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;test/assignment3/Test_systemcalls.c and ../examples/autotest-validate/autotest-validate.c;../examples/systemcalls/systemcalls.c
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/shetty/Desktop/Linux_Coursera/Git_Assignment1/assignment-3-AbhinitShetty/build
+[  7%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[ 15%] Linking C static library libunity.a
+[ 15%] Built target unity
+[ 23%] Generating ../../assignment-autotest/test/assignment1/Test_hello_Runner.c, ../../assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c, ../../assignment-autotest/test/assignment3/Test_systemcalls_Runner.c, ../../assignment-autotest/test/unity_runner.c
+Test files for auto dependency generation test/assignment1/Test_hello.c test/assignment1/Test_assignment_validate.c test/assignment3/Test_systemcalls.c
+Autogenerating runner for test/assignment1/Test_hello.c
+Autogenerating runner for test/assignment1/Test_assignment_validate.c
+Autogenerating runner for test/assignment3/Test_systemcalls.c
+Autogenerating test/unity_runner.c
+Scanning dependencies of target assignment-autotest
+[ 30%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o
+[ 38%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o
+[ 46%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment3/Test_systemcalls.c.o
+[ 53%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o
+[ 61%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o
+[ 69%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment3/Test_systemcalls_Runner.c.o
+[ 76%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o
+[ 84%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/systemcalls/systemcalls.c.o
+[ 92%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o
+[100%] Linking C executable assignment-autotest
+[100%] Built target assignment-autotest
+/home/shetty/Desktop/Linux_Coursera/Git_Assignment1/assignment-3-AbhinitShetty/assignment-autotest/test/assignment1/Test_hello.c:6:test_hello:INFO: Hello!  Your unity setup is working!
+/home/shetty/Desktop/Linux_Coursera/Git_Assignment1/assignment-3-AbhinitShetty/assignment-autotest/test/assignment1/Test_hello.c:4:test_hello:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/shetty/Desktop/Linux_Coursera/Git_Assignment1/assignment-3-AbhinitShetty/assignment-autotest/test/assignment1/Test_assignment_validate.c:9:test_assignment_validate:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Running tests at /home/shetty/Desktop/Linux_Coursera/Git_Assignment1/assignment-3-AbhinitShetty/assignment-autotest/test/assignment3/Test_systemcalls.c : function test_systemcalls
+Executing assignment test script
+~/Desktop/Linux_Coursera/Git_Assignment1/assignment-3-AbhinitShetty/assignment-autotest/test/assignment3 ~/Desktop/Linux_Coursera/Git_Assignment1/assignment-3-AbhinitShetty
+starting test with SKIP_BUILD  and DO_VALIDATE 
+~/Desktop/Linux_Coursera/Git_Assignment1/assignment-3-AbhinitShetty/finder-app ~/Desktop/Linux_Coursera/Git_Assignment1/assignment-3-AbhinitShetty/assignment-autotest/test/assignment3 ~/Desktop/Linux_Coursera/Git_Assignment1/assignment-3-AbhinitShetty
+Using passed directory /tmp/aesd-autograder for output
+CLONING GIT LINUX STABLE VERSION v5.1.10 IN /tmp/aesd-autograder
+Cloning into 'linux-stable'...
+Running test with user shetty
+-- Generating ;/home/shetty/Desktop/Linux_Coursera/Git_Assignment1/assignment-3-AbhinitShetty/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/shetty/Desktop/Linux_Coursera/Git_Assignment1/assignment-3-AbhinitShetty/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/shetty/Desktop/Linux_Coursera/Git_Assignment1/assignment-3-AbhinitShetty/assignment-autotest/test/assignment3/Test_systemcalls_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;test/assignment3/Test_systemcalls.c
+-- Building executable including ;/home/shetty/Desktop/Linux_Coursera/Git_Assignment1/assignment-3-AbhinitShetty/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/shetty/Desktop/Linux_Coursera/Git_Assignment1/assignment-3-AbhinitShetty/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/shetty/Desktop/Linux_Coursera/Git_Assignment1/assignment-3-AbhinitShetty/assignment-autotest/test/assignment3/Test_systemcalls_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;test/assignment3/Test_systemcalls.c and ../examples/autotest-validate/autotest-validate.c;../examples/systemcalls/systemcalls.c
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/shetty/Desktop/Linux_Coursera/Git_Assignment1/assignment-3-AbhinitShetty/build
+[  7%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[ 15%] Linking C static library libunity.a
+[ 15%] Built target unity
+[ 23%] Generating ../../assignment-autotest/test/assignment1/Test_hello_Runner.c, ../../assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c, ../../assignment-autotest/test/assignment3/Test_systemcalls_Runner.c, ../../assignment-autotest/test/unity_runner.c
+Test files for auto dependency generation test/assignment1/Test_hello.c test/assignment1/Test_assignment_validate.c test/assignment3/Test_systemcalls.c
+Autogenerating runner for test/assignment1/Test_hello.c
+Autogenerating runner for test/assignment1/Test_assignment_validate.c
+Autogenerating runner for test/assignment3/Test_systemcalls.c
+Autogenerating test/unity_runner.c
+Scanning dependencies of target assignment-autotest
+[ 30%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o
+[ 38%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o
+[ 46%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment3/Test_systemcalls.c.o
+[ 53%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o
+[ 61%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o
+[ 69%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment3/Test_systemcalls_Runner.c.o
+[ 76%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o
+[ 84%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/systemcalls/systemcalls.c.o
+[ 92%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o
+[100%] Linking C executable assignment-autotest
+[100%] Built target assignment-autotest
+/home/shetty/Desktop/Linux_Coursera/Git_Assignment1/assignment-3-AbhinitShetty/assignment-autotest/test/assignment1/Test_hello.c:6:test_hello:INFO: Hello!  Your unity setup is working!
+/home/shetty/Desktop/Linux_Coursera/Git_Assignment1/assignment-3-AbhinitShetty/assignment-autotest/test/assignment1/Test_hello.c:4:test_hello:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/shetty/Desktop/Linux_Coursera/Git_Assignment1/assignment-3-AbhinitShetty/assignment-autotest/test/assignment1/Test_assignment_validate.c:9:test_assignment_validate:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Running tests at /home/shetty/Desktop/Linux_Coursera/Git_Assignment1/assignment-3-AbhinitShetty/assignment-autotest/test/assignment3/Test_systemcalls.c : function test_systemcalls
+Executing assignment test script
+~/Desktop/Linux_Coursera/Git_Assignment1/assignment-3-AbhinitShetty/assignment-autotest/test/assignment3 ~/Desktop/Linux_Coursera/Git_Assignment1/assignment-3-AbhinitShetty
+starting test with SKIP_BUILD  and DO_VALIDATE 
+~/Desktop/Linux_Coursera/Git_Assignment1/assignment-3-AbhinitShetty/finder-app ~/Desktop/Linux_Coursera/Git_Assignment1/assignment-3-AbhinitShetty/assignment-autotest/test/assignment3 ~/Desktop/Linux_Coursera/Git_Assignment1/assignment-3-AbhinitShetty
+Using passed directory /tmp/aesd-autograder for output
+CLONING GIT LINUX STABLE VERSION v5.1.10 IN /tmp/aesd-autograder
+Cloning into 'linux-stable'...
+Running test with user shetty
+-- Generating ;/home/shetty/Desktop/Linux_Coursera/Git_Assignment1/assignment-3-AbhinitShetty/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/shetty/Desktop/Linux_Coursera/Git_Assignment1/assignment-3-AbhinitShetty/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/shetty/Desktop/Linux_Coursera/Git_Assignment1/assignment-3-AbhinitShetty/assignment-autotest/test/assignment3/Test_systemcalls_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;test/assignment3/Test_systemcalls.c
+-- Building executable including ;/home/shetty/Desktop/Linux_Coursera/Git_Assignment1/assignment-3-AbhinitShetty/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/shetty/Desktop/Linux_Coursera/Git_Assignment1/assignment-3-AbhinitShetty/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/shetty/Desktop/Linux_Coursera/Git_Assignment1/assignment-3-AbhinitShetty/assignment-autotest/test/assignment3/Test_systemcalls_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;test/assignment3/Test_systemcalls.c and ../examples/autotest-validate/autotest-validate.c;../examples/systemcalls/systemcalls.c
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/shetty/Desktop/Linux_Coursera/Git_Assignment1/assignment-3-AbhinitShetty/build
+[  7%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[ 15%] Linking C static library libunity.a
+[ 15%] Built target unity
+[ 23%] Generating ../../assignment-autotest/test/assignment1/Test_hello_Runner.c, ../../assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c, ../../assignment-autotest/test/assignment3/Test_systemcalls_Runner.c, ../../assignment-autotest/test/unity_runner.c
+Test files for auto dependency generation test/assignment1/Test_hello.c test/assignment1/Test_assignment_validate.c test/assignment3/Test_systemcalls.c
+Autogenerating runner for test/assignment1/Test_hello.c
+Autogenerating runner for test/assignment1/Test_assignment_validate.c
+Autogenerating runner for test/assignment3/Test_systemcalls.c
+Autogenerating test/unity_runner.c
+Scanning dependencies of target assignment-autotest
+[ 30%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o
+[ 38%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o
+[ 46%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment3/Test_systemcalls.c.o
+[ 53%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o
+[ 61%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o
+[ 69%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment3/Test_systemcalls_Runner.c.o
+[ 76%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o
+[ 84%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/systemcalls/systemcalls.c.o
+[ 92%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o
+[100%] Linking C executable assignment-autotest
+[100%] Built target assignment-autotest
+/home/shetty/Desktop/Linux_Coursera/Git_Assignment1/assignment-3-AbhinitShetty/assignment-autotest/test/assignment1/Test_hello.c:6:test_hello:INFO: Hello!  Your unity setup is working!
+/home/shetty/Desktop/Linux_Coursera/Git_Assignment1/assignment-3-AbhinitShetty/assignment-autotest/test/assignment1/Test_hello.c:4:test_hello:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/shetty/Desktop/Linux_Coursera/Git_Assignment1/assignment-3-AbhinitShetty/assignment-autotest/test/assignment1/Test_assignment_validate.c:9:test_assignment_validate:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Running tests at /home/shetty/Desktop/Linux_Coursera/Git_Assignment1/assignment-3-AbhinitShetty/assignment-autotest/test/assignment3/Test_systemcalls.c : function test_systemcalls
+Executing assignment test script
+~/Desktop/Linux_Coursera/Git_Assignment1/assignment-3-AbhinitShetty/assignment-autotest/test/assignment3 ~/Desktop/Linux_Coursera/Git_Assignment1/assignment-3-AbhinitShetty
+starting test with SKIP_BUILD  and DO_VALIDATE 
+~/Desktop/Linux_Coursera/Git_Assignment1/assignment-3-AbhinitShetty/finder-app ~/Desktop/Linux_Coursera/Git_Assignment1/assignment-3-AbhinitShetty/assignment-autotest/test/assignment3 ~/Desktop/Linux_Coursera/Git_Assignment1/assignment-3-AbhinitShetty
+Using passed directory /tmp/aesd-autograder for output
+CLONING GIT LINUX STABLE VERSION v5.1.10 IN /tmp/aesd-autograder
+Cloning into 'linux-stable'...
+Running test with user shetty
+-- Generating ;/home/shetty/Desktop/Linux_Coursera/Git_Assignment1/assignment-3-AbhinitShetty/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/shetty/Desktop/Linux_Coursera/Git_Assignment1/assignment-3-AbhinitShetty/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/shetty/Desktop/Linux_Coursera/Git_Assignment1/assignment-3-AbhinitShetty/assignment-autotest/test/assignment3/Test_systemcalls_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;test/assignment3/Test_systemcalls.c
+-- Building executable including ;/home/shetty/Desktop/Linux_Coursera/Git_Assignment1/assignment-3-AbhinitShetty/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/shetty/Desktop/Linux_Coursera/Git_Assignment1/assignment-3-AbhinitShetty/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/shetty/Desktop/Linux_Coursera/Git_Assignment1/assignment-3-AbhinitShetty/assignment-autotest/test/assignment3/Test_systemcalls_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;test/assignment3/Test_systemcalls.c and ../examples/autotest-validate/autotest-validate.c;../examples/systemcalls/systemcalls.c
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/shetty/Desktop/Linux_Coursera/Git_Assignment1/assignment-3-AbhinitShetty/build
+[  7%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[ 15%] Linking C static library libunity.a
+[ 15%] Built target unity
+[ 23%] Generating ../../assignment-autotest/test/assignment1/Test_hello_Runner.c, ../../assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c, ../../assignment-autotest/test/assignment3/Test_systemcalls_Runner.c, ../../assignment-autotest/test/unity_runner.c
+Test files for auto dependency generation test/assignment1/Test_hello.c test/assignment1/Test_assignment_validate.c test/assignment3/Test_systemcalls.c
+Autogenerating runner for test/assignment1/Test_hello.c
+Autogenerating runner for test/assignment1/Test_assignment_validate.c
+Autogenerating runner for test/assignment3/Test_systemcalls.c
+Autogenerating test/unity_runner.c
+Scanning dependencies of target assignment-autotest
+[ 30%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o
+[ 38%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o
+[ 46%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment3/Test_systemcalls.c.o
+[ 53%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o
+[ 61%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o
+[ 69%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment3/Test_systemcalls_Runner.c.o
+[ 76%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o
+[ 84%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/systemcalls/systemcalls.c.o
+[ 92%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o
+[100%] Linking C executable assignment-autotest
+[100%] Built target assignment-autotest
+/home/shetty/Desktop/Linux_Coursera/Git_Assignment1/assignment-3-AbhinitShetty/assignment-autotest/test/assignment1/Test_hello.c:6:test_hello:INFO: Hello!  Your unity setup is working!
+/home/shetty/Desktop/Linux_Coursera/Git_Assignment1/assignment-3-AbhinitShetty/assignment-autotest/test/assignment1/Test_hello.c:4:test_hello:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/shetty/Desktop/Linux_Coursera/Git_Assignment1/assignment-3-AbhinitShetty/assignment-autotest/test/assignment1/Test_assignment_validate.c:9:test_assignment_validate:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Running tests at /home/shetty/Desktop/Linux_Coursera/Git_Assignment1/assignment-3-AbhinitShetty/assignment-autotest/test/assignment3/Test_systemcalls.c : function test_systemcalls
+Executing assignment test script
+~/Desktop/Linux_Coursera/Git_Assignment1/assignment-3-AbhinitShetty/assignment-autotest/test/assignment2 ~/Desktop/Linux_Coursera/Git_Assignment1/assignment-3-AbhinitShetty
+~/Desktop/Linux_Coursera/Git_Assignment1/assignment-3-AbhinitShetty/finder-app ~/Desktop/Linux_Coursera/Git_Assignment1/assignment-3-AbhinitShetty/assignment-autotest/test/assignment2 ~/Desktop/Linux_Coursera/Git_Assignment1/assignment-3-AbhinitShetty
+rm -f writer *.o
+aarch64-none-linux-gnu-gcc -o writer.out writer.c
+make: aarch64-none-linux-gnu-gcc: Command not found
+make: *** [Makefile:7: writer] Error 127
+./assignment-autotest/test/assignment2/assignment-test.sh: line 13: ./writer: No such file or directory
+[0;31mValidation Error:writer should have exited with return value 1 if no parameters were specified[0m
+./assignment-autotest/test/assignment2/assignment-test.sh: line 19: ./writer: No such file or directory
+[0;31mValidation Error:writer should have exited with return value 1 if write string is not specified[0m
+Using default value AELD_IS_FUN for string to write
+Using default value 10 for number of files to write
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data
+/tmp/aeld-data created
+[0;31mValidation Error:finder-test.sh execution failed with return code 127[0m
+Validation failed with error list :writer should have exited with return value 1 if no parameters were specified:writer should have exited with return value 1 if write string is not specified:finder-test.sh execution failed with return code 127
+./finder-test.sh: 57: ./writer: not found
+Test of assignment assignment2 failed with rc=1
+Running test with user shetty
+-- Generating ;/home/shetty/Desktop/Linux_Coursera/Git_Assignment1/assignment-3-AbhinitShetty/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/shetty/Desktop/Linux_Coursera/Git_Assignment1/assignment-3-AbhinitShetty/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/shetty/Desktop/Linux_Coursera/Git_Assignment1/assignment-3-AbhinitShetty/assignment-autotest/test/assignment3/Test_systemcalls_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;test/assignment3/Test_systemcalls.c
+-- Building executable including ;/home/shetty/Desktop/Linux_Coursera/Git_Assignment1/assignment-3-AbhinitShetty/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/shetty/Desktop/Linux_Coursera/Git_Assignment1/assignment-3-AbhinitShetty/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/shetty/Desktop/Linux_Coursera/Git_Assignment1/assignment-3-AbhinitShetty/assignment-autotest/test/assignment3/Test_systemcalls_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;test/assignment3/Test_systemcalls.c and ../examples/autotest-validate/autotest-validate.c;../examples/systemcalls/systemcalls.c
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/shetty/Desktop/Linux_Coursera/Git_Assignment1/assignment-3-AbhinitShetty/build
+[  7%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[ 15%] Linking C static library libunity.a
+[ 15%] Built target unity
+[ 23%] Generating ../../assignment-autotest/test/assignment1/Test_hello_Runner.c, ../../assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c, ../../assignment-autotest/test/assignment3/Test_systemcalls_Runner.c, ../../assignment-autotest/test/unity_runner.c
+Test files for auto dependency generation test/assignment1/Test_hello.c test/assignment1/Test_assignment_validate.c test/assignment3/Test_systemcalls.c
+Autogenerating runner for test/assignment1/Test_hello.c
+Autogenerating runner for test/assignment1/Test_assignment_validate.c
+Autogenerating runner for test/assignment3/Test_systemcalls.c
+Autogenerating test/unity_runner.c
+Scanning dependencies of target assignment-autotest
+[ 30%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o
+[ 38%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o
+[ 46%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment3/Test_systemcalls.c.o
+[ 53%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o
+[ 61%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o
+[ 69%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment3/Test_systemcalls_Runner.c.o
+[ 76%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o
+[ 84%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/systemcalls/systemcalls.c.o
+[ 92%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o
+[100%] Linking C executable assignment-autotest
+[100%] Built target assignment-autotest
+/home/shetty/Desktop/Linux_Coursera/Git_Assignment1/assignment-3-AbhinitShetty/assignment-autotest/test/assignment1/Test_hello.c:6:test_hello:INFO: Hello!  Your unity setup is working!
+/home/shetty/Desktop/Linux_Coursera/Git_Assignment1/assignment-3-AbhinitShetty/assignment-autotest/test/assignment1/Test_hello.c:4:test_hello:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/shetty/Desktop/Linux_Coursera/Git_Assignment1/assignment-3-AbhinitShetty/assignment-autotest/test/assignment1/Test_assignment_validate.c:9:test_assignment_validate:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Running tests at /home/shetty/Desktop/Linux_Coursera/Git_Assignment1/assignment-3-AbhinitShetty/assignment-autotest/test/assignment3/Test_systemcalls.c : function test_systemcalls
+Executing assignment test script
+~/Desktop/Linux_Coursera/Git_Assignment1/assignment-3-AbhinitShetty/assignment-autotest/test/assignment2 ~/Desktop/Linux_Coursera/Git_Assignment1/assignment-3-AbhinitShetty
+~/Desktop/Linux_Coursera/Git_Assignment1/assignment-3-AbhinitShetty/finder-app ~/Desktop/Linux_Coursera/Git_Assignment1/assignment-3-AbhinitShetty/assignment-autotest/test/assignment2 ~/Desktop/Linux_Coursera/Git_Assignment1/assignment-3-AbhinitShetty
+rm -f writer *.o
+aarch64-none-linux-gnu-gcc -o writer.out writer.c
+make: aarch64-none-linux-gnu-gcc: Command not found
+make: *** [Makefile:7: writer] Error 127
+./assignment-autotest/test/assignment2/assignment-test.sh: line 13: ./writer.out: cannot execute binary file: Exec format error
+[0;31mValidation Error:writer should have exited with return value 1 if no parameters were specified[0m
+./assignment-autotest/test/assignment2/assignment-test.sh: line 19: ./writer.out: cannot execute binary file: Exec format error
+[0;31mValidation Error:writer should have exited with return value 1 if write string is not specified[0m
+Using default value AELD_IS_FUN for string to write
+Using default value 10 for number of files to write
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data
+/tmp/aeld-data created
+./finder-test.sh: 57: ./writer: not found
+[0;31mValidation Error:finder-test.sh execution failed with return code 127[0m
+Validation failed with error list :writer should have exited with return value 1 if no parameters were specified:writer should have exited with return value 1 if write string is not specified:finder-test.sh execution failed with return code 127
+Test of assignment assignment2 failed with rc=1
+Running test with user shetty
+-- Generating ;/home/shetty/Desktop/Linux_Coursera/Git_Assignment1/assignment-3-AbhinitShetty/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/shetty/Desktop/Linux_Coursera/Git_Assignment1/assignment-3-AbhinitShetty/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/shetty/Desktop/Linux_Coursera/Git_Assignment1/assignment-3-AbhinitShetty/assignment-autotest/test/assignment3/Test_systemcalls_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;test/assignment3/Test_systemcalls.c
+-- Building executable including ;/home/shetty/Desktop/Linux_Coursera/Git_Assignment1/assignment-3-AbhinitShetty/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/shetty/Desktop/Linux_Coursera/Git_Assignment1/assignment-3-AbhinitShetty/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/shetty/Desktop/Linux_Coursera/Git_Assignment1/assignment-3-AbhinitShetty/assignment-autotest/test/assignment3/Test_systemcalls_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;test/assignment3/Test_systemcalls.c and ../examples/autotest-validate/autotest-validate.c;../examples/systemcalls/systemcalls.c
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/shetty/Desktop/Linux_Coursera/Git_Assignment1/assignment-3-AbhinitShetty/build
+[  7%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[ 15%] Linking C static library libunity.a
+[ 15%] Built target unity
+[ 23%] Generating ../../assignment-autotest/test/assignment1/Test_hello_Runner.c, ../../assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c, ../../assignment-autotest/test/assignment3/Test_systemcalls_Runner.c, ../../assignment-autotest/test/unity_runner.c
+Test files for auto dependency generation test/assignment1/Test_hello.c test/assignment1/Test_assignment_validate.c test/assignment3/Test_systemcalls.c
+Autogenerating runner for test/assignment1/Test_hello.c
+Autogenerating runner for test/assignment1/Test_assignment_validate.c
+Autogenerating runner for test/assignment3/Test_systemcalls.c
+Autogenerating test/unity_runner.c
+Scanning dependencies of target assignment-autotest
+[ 30%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o
+[ 38%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o
+[ 46%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment3/Test_systemcalls.c.o
+[ 53%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o
+[ 61%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o
+[ 69%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment3/Test_systemcalls_Runner.c.o
+[ 76%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o
+[ 84%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/systemcalls/systemcalls.c.o
+[ 92%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o
+[100%] Linking C executable assignment-autotest
+[100%] Built target assignment-autotest
+/home/shetty/Desktop/Linux_Coursera/Git_Assignment1/assignment-3-AbhinitShetty/assignment-autotest/test/assignment1/Test_hello.c:6:test_hello:INFO: Hello!  Your unity setup is working!
+/home/shetty/Desktop/Linux_Coursera/Git_Assignment1/assignment-3-AbhinitShetty/assignment-autotest/test/assignment1/Test_hello.c:4:test_hello:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/shetty/Desktop/Linux_Coursera/Git_Assignment1/assignment-3-AbhinitShetty/assignment-autotest/test/assignment1/Test_assignment_validate.c:9:test_assignment_validate:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Running tests at /home/shetty/Desktop/Linux_Coursera/Git_Assignment1/assignment-3-AbhinitShetty/assignment-autotest/test/assignment3/Test_systemcalls.c : function test_systemcalls
+Executing assignment test script
+~/Desktop/Linux_Coursera/Git_Assignment1/assignment-3-AbhinitShetty/assignment-autotest/test/assignment2 ~/Desktop/Linux_Coursera/Git_Assignment1/assignment-3-AbhinitShetty
+~/Desktop/Linux_Coursera/Git_Assignment1/assignment-3-AbhinitShetty/finder-app ~/Desktop/Linux_Coursera/Git_Assignment1/assignment-3-AbhinitShetty/assignment-autotest/test/assignment2 ~/Desktop/Linux_Coursera/Git_Assignment1/assignment-3-AbhinitShetty
+rm -f writer *.o
+aarch64-none-linux-gnu-gcc -o writer.out writer.c
+make: aarch64-none-linux-gnu-gcc: Command not found
+make: *** [Makefile:7: writer] Error 127
+./assignment-autotest/test/assignment2/assignment-test.sh: line 13: ./writer: No such file or directory
+[0;31mValidation Error:writer should have exited with return value 1 if no parameters were specified[0m
+./assignment-autotest/test/assignment2/assignment-test.sh: line 19: ./writer: No such file or directory
+[0;31mValidation Error:writer should have exited with return value 1 if write string is not specified[0m
+Using default value AELD_IS_FUN for string to write
+Using default value 10 for number of files to write
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data
+/tmp/aeld-data created
+[0;31mValidation Error:finder-test.sh execution failed with return code 127[0m
+Validation failed with error list :writer should have exited with return value 1 if no parameters were specified:writer should have exited with return value 1 if write string is not specified:finder-test.sh execution failed with return code 127
+Test of assignment assignment2 failed with rc=1
+./finder-test.sh: 57: ./writer: not found
