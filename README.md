@@ -1,28 +1,72 @@
-# aesd-assignments
-This repo contains public starter source code, scripts, and documentation for Advanced Embedded Software Development (ECEN-5713) and Advanced Embedded Linux Development assignments University of Colorado, Boulder.
 
-## Setting Up Git
+# Manual Linux Build
 
-Use the instructions at [Setup Git](https://help.github.com/en/articles/set-up-git) to perform initial git setup steps. For AESD you will want to perform these steps inside your Linux host virtual or physical machine, since this is where you will be doing your development work.
+The Manual Linux Build project is a comprehensive guide to building a barebones kernel and root filesystem using the ARM cross-compile toolchain. This project includes scripts to automate the build process and boot the system using QEMU, as well as testing scripts to validate the implementation.
 
-## Setting up SSH keys
+## Installation Instructions
 
-See instructions in [Setting-up-SSH-Access-To-your-Repo](https://github.com/cu-ecen-aeld/aesd-assignments/wiki/Setting-up-SSH-Access-To-your-Repo) for details.
+1. Clone the repository to your local machine using:
 
-## Specific Assignment Instructions
-
-Some assignments require further setup to pull in example code or make other changes to your repository before starting.  In this case, see the github classroom assignment start instructions linked from the assignment document for details about how to use this repository.
-
-## Testing
-
-The basis of the automated test implementation for this repository comes from [https://github.com/cu-ecen-aeld/assignment-autotest/](https://github.com/cu-ecen-aeld/assignment-autotest/)
-
-The assignment-autotest directory contains scripts useful for automated testing  Use
+```bash
+  git clone https://github.com/AbhinitShetty/CustomLinuxKernelBuild.git
 ```
-git submodule update --init --recursive
+2. Navigate to the project directory:
+
+```bash
+  cd finder-app/
 ```
-to synchronize after cloning and before starting each assignment, as discussed in the assignment instructions.
+3. Make the shell scripts executable:
+```bash
+  chmod +x manual-linux.sh start-qemu-terminal.sh finder-test.sh full-test.sh
+  ```
 
-As a part of the assignment instructions, you will setup your assignment repo to perform automated testing using github actions.  See [this page](https://github.com/cu-ecen-aeld/aesd-assignments/wiki/Setting-up-Github-Actions) for details.
+4. Ensure you have the ARM cross-compile toolchain and QEMU installed on your system.
 
-Note that the unit tests will fail on this repository, since assignments are not yet implemented.  That's your job :) 
+## Project Explanation
+
+This project includes a BASH script `finder-app/manual-linux.sh` that uses the ARM cross-compile toolchain to build a barebones kernel and root filesystem, and boots using QEMU.
+
+1. **manual-linux.sh** 
+The `manual-linux.sh` script is designed to:
+- Completely build or rebuild all components in a new or existing directory `outdir` with the installed kernel.
+- Build Kernel Image
+- Build Root Filesystem
+- Cross Compile writer application `writer.out`
+- Create Standalone Initramfs
+- Operate non-interactively, requiring only the `outdir` command line argument when run the first time on a new `outdir`.
+- Usage:
+```bash
+  ./manual-linux.sh <outdir>
+```
+
+2. **start-qemu-terminal.sh**
+This script starts a QEMU instance using the build directory.
+- Usage:
+```bash
+  ./start-qemu-terminal.sh
+```
+After booting, you can log in with no username and password, and then run `./finder-test.sh` from the QEMU console prompt to get a success response. The writer application should run successfully inside QEMU after being cross-compiled.
+
+3. **finder-test.sh** 
+This script runs tests to ensure the writer application runs successfully inside the QEMU instance.
+- Usage:
+```bash
+  ./finder-test.sh
+```
+
+4. **full-test.sh**
+The `full-test.sh` script validates the entire implementation, including:
+- The content of systemcalls.c unit tests.
+- The `manual-linux.sh` script.
+- The QEMU operation.
+- Usage:
+```bash
+  ./full-test.sh
+```
+Run this script to ensure all functionalities are working as expected.
+
+## Current Status
+The kernel image has been successfully built and the QEMU instance boots up as expected. The ARM cross-compiled `writer.out` file functions correctly, and this can be verified by running the `finder-test.sh` script within the QEMU instance. However, a few checks in the `full-test.sh` script are still pending validation. As a result, the GitHub Actions self-hosted runner currently indicates incomplete success. These issues will be resolved shortly.
+
+## Summary 
+This project automates the process of building and booting a barebones Linux kernel and root filesystem using ARM cross-compilation and QEMU, providing scripts to build, test, and validate the implementation efficiently.
