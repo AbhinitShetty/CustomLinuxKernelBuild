@@ -26,7 +26,7 @@ The Manual Linux Build project is a comprehensive guide to building a barebones 
 
 This project includes a BASH script `finder-app/manual-linux.sh` that uses the ARM cross-compile toolchain to build a barebones kernel and root filesystem, and boots using QEMU.
 
-1. **manual-linux.sh** 
+1. **manual-linux.sh** :
 The `manual-linux.sh` script is designed to:
 - Completely build or rebuild all components in a new or existing directory `outdir` with the installed kernel.
 - Build Kernel Image
@@ -39,7 +39,7 @@ The `manual-linux.sh` script is designed to:
   ./manual-linux.sh <outdir>
 ```
 
-2. **start-qemu-terminal.sh**
+2. **start-qemu-terminal.sh** :
 This script starts a QEMU instance using the build directory.
 - Usage:
 ```bash
@@ -47,14 +47,14 @@ This script starts a QEMU instance using the build directory.
 ```
 After booting, you can log in with no username and password, and then run `./finder-test.sh` from the QEMU console prompt to get a success response. The writer application should run successfully inside QEMU after being cross-compiled.
 
-3. **finder-test.sh** 
+3. **finder-test.sh** :
 This script runs tests to ensure the writer application runs successfully inside the QEMU instance.
 - Usage:
 ```bash
   ./finder-test.sh
 ```
 
-4. **full-test.sh**
+4. **full-test.sh** :
 The `full-test.sh` script validates the entire implementation, including:
 - The content of systemcalls.c unit tests.
 - The `manual-linux.sh` script.
